@@ -47,6 +47,12 @@ nav {
     text-align: left;
 }
 
+.logo-img {
+    height: 48px;
+    width: auto;
+    display: block;
+}
+
 .nav-links {
     display: flex;
     justify-content: center;
@@ -405,6 +411,9 @@ footer {
         width: 100%;
         text-align: left;
         margin-bottom: 0.5rem;
+    }
+    .logo-img {
+        height: 36px;
     }
     .nav-links {
         display: none;
