@@ -30,9 +30,6 @@ document.addEventListener('DOMContentLoaded', function() {
             aboutTitle: 'Hakkımızda',
             aboutP1: 'DeutschApp, Almanca öğrenmek isteyenler için özel olarak tasarlanmış yenilikçi bir dil öğrenme platformudur. 2024 yılında kurulan ekibimiz, dil öğrenme sürecini daha etkili ve eğlenceli hale getirmek için çalışmaktadır.',
             aboutP2: 'Uzman eğitmenlerimiz ve yapay zeka teknolojilerimiz sayesinde, her öğrencinin ihtiyaçlarına uygun kişiselleştirilmiş öğrenme deneyimi sunuyoruz. Amacımız, Almanca öğrenmek isteyen herkesin hedeflerine ulaşmasına yardımcı olmaktır.',
-            stat1: 'Aktif Öğrenci',
-            stat2: 'Uzman Eğitmen',
-            stat3: 'Başarı Oranı',
             contactTitle: 'İletişim',
             name: 'Adınız',
             email: 'E-posta Adresiniz',
@@ -67,9 +64,6 @@ document.addEventListener('DOMContentLoaded', function() {
             aboutTitle: 'Über uns',
             aboutP1: 'DeutschApp ist eine innovative Sprachlernplattform, die speziell für Deutschlernende entwickelt wurde. Unser Team wurde 2024 gegründet und arbeitet daran, den Lernprozess effektiver und unterhaltsamer zu gestalten.',
             aboutP2: 'Dank unserer Experten und KI-Technologien bieten wir jedem Schüler ein personalisiertes Lernerlebnis. Unser Ziel ist es, allen, die Deutsch lernen möchten, zu helfen, ihre Ziele zu erreichen.',
-            stat1: 'Aktive Lernende',
-            stat2: 'Experten',
-            stat3: 'Erfolgsquote',
             contactTitle: 'Kontakt',
             name: 'Ihr Name',
             email: 'Ihre E-Mail-Adresse',
@@ -104,9 +98,6 @@ document.addEventListener('DOMContentLoaded', function() {
             aboutTitle: 'About Us',
             aboutP1: 'DeutschApp is an innovative language learning platform designed especially for those who want to learn German. Founded in 2024, our team works to make the learning process more effective and fun.',
             aboutP2: 'With our expert instructors and AI technologies, we offer a personalized learning experience tailored to each student. Our goal is to help everyone who wants to learn German achieve their goals.',
-            stat1: 'Active Students',
-            stat2: 'Expert Instructors',
-            stat3: 'Success Rate',
             contactTitle: 'Contact',
             name: 'Your Name',
             email: 'Your Email Address',
@@ -160,9 +151,6 @@ document.addEventListener('DOMContentLoaded', function() {
         document.querySelector('.about h2').textContent = t.aboutTitle;
         document.querySelectorAll('.about-text p')[0].textContent = t.aboutP1;
         document.querySelectorAll('.about-text p')[1].textContent = t.aboutP2;
-        document.querySelectorAll('.stat-item p')[0].textContent = t.stat1;
-        document.querySelectorAll('.stat-item p')[1].textContent = t.stat2;
-        document.querySelectorAll('.stat-item p')[2].textContent = t.stat3;
         // İletişim
         document.querySelector('.contact h2').textContent = t.contactTitle;
         document.querySelector('input[placeholder="Adınız"], input[placeholder="Ihr Name"], input[placeholder="Your Name"]').placeholder = t.name;
