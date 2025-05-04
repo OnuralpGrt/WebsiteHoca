@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DeutschApp - Almanca Öğrenme Uygulaması</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">DeutschApp</div>
+            <div class="nav-links">
+                <a href="#features">Özellikler</a>
+                <a href="#how-it-works">Nasıl Çalışır?</a>
+                <a href="#about">Hakkımızda</a>
+                <a href="#contact">İletişim</a>
+            </div>
+            <div class="language-selector">
+                <button class="language-btn active" data-lang="tr">
+                    <img src="https://flagcdn.com/tr.svg" alt="Türkçe" width="20" height="15">
+                </button>
+                <button class="language-btn" data-lang="de">
+                    <img src="https://flagcdn.com/de.svg" alt="Deutsch" width="20" height="15">
+                </button>
+                <button class="language-btn" data-lang="en">
+                    <img src="https://flagcdn.com/gb.svg" alt="English" width="20" height="15">
+                </button>
+            </div>
+            <div class="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Almanca Öğrenmek Artık Çok Kolay!</h1>
+            <p>DeutschApp ile Almanca öğrenmek için en etkili yöntemi keşfedin. İnteraktif dersler, pratik alıştırmalar ve gerçek zamanlı geri bildirimlerle dil öğrenme deneyiminizi en üst seviyeye taşıyın.</p>
+            <button class="cta-button">Hemen Başla</button>
+        </div>
+        <div class="hero-image">
+            <img src="Reklamsal.png" alt="DeutschApp Reklam Görseli">
+        </div>
+    </section>
+
+    <section id="features" class="features">
+        <h2>Öne Çıkan Özellikler</h2>
+        <div class="feature-grid">
+            <div class="feature-card">
+                <i class="fas fa-comments"></i>
+                <h3>Konuşma Pratiği</h3>
+                <p>Yapay zeka destekli konuşma pratiği ile telaffuzunuzu geliştirin.</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-gamepad"></i>
+                <h3>Oyunlaştırılmış Öğrenme</h3>
+                <p>Eğlenceli oyunlar ve ödüllerle motivasyonunuzu yüksek tutun.</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-chart-line"></i>
+                <h3>İlerleme Takibi</h3>
+                <p>Detaylı istatistiklerle öğrenme sürecinizi takip edin.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="how-it-works" class="how-it-works">
+        <h2>Nasıl Çalışır?</h2>
+        <div class="steps">
+            <div class="step">
+                <div class="step-number">1</div>
+                <h3>Kayıt Ol</h3>
+                <p>Hızlı ve ücretsiz kayıt olun.</p>
+            </div>
+            <div class="step">
+                <div class="step-number">2</div>
+                <h3>Seviye Belirle</h3>
+                <p>Seviye testi ile başlangıç noktanızı belirleyin.</p>
+            </div>
+            <div class="step">
+                <div class="step-number">3</div>
+                <h3>Öğrenmeye Başla</h3>
+                <p>Kişiselleştirilmiş derslerle öğrenmeye başlayın.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2>Hakkımızda</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>DeutschApp, Almanca öğrenmek isteyenler için özel olarak tasarlanmış yenilikçi bir dil öğrenme platformudur. 2024 yılında kurulan ekibimiz, dil öğrenme sürecini daha etkili ve eğlenceli hale getirmek için çalışmaktadır.</p>
+                <p>Uzman eğitmenlerimiz ve yapay zeka teknolojilerimiz sayesinde, her öğrencinin ihtiyaçlarına uygun kişiselleştirilmiş öğrenme deneyimi sunuyoruz. Amacımız, Almanca öğrenmek isteyen herkesin hedeflerine ulaşmasına yardımcı olmaktır.</p>
+            </div>
+            <div class="about-stats">
+                <div class="stat-item">
+                    <h3>10,000+</h3>
+                    <p>Aktif Öğrenci</p>
+                </div>
+                <div class="stat-item">
+                    <h3>50+</h3>
+                    <p>Uzman Eğitmen</p>
+                </div>
+                <div class="stat-item">
+                    <h3>%95</h3>
+                    <p>Başarı Oranı</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>İletişim</h2>
+        <form>
+            <input type="text" placeholder="Adınız">
+            <input type="email" placeholder="E-posta Adresiniz">
+            <textarea placeholder="Mesajınız"></textarea>
+            <button type="submit">Gönder</button>
+        </form>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>DeutschApp</h3>
+                <p>Almanca öğrenmek için en iyi çözüm.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Bağlantılar</h3>
+                <a href="#features">Özellikler</a>
+                <a href="#how-it-works">Nasıl Çalışır?</a>
+                <a href="#about">Hakkımızda</a>
+            </div>
+            <div class="footer-section">
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 DeutschApp. Tüm hakları saklıdır.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
