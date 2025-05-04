@@ -70,13 +70,15 @@ nav {
 }
 
 .language-selector {
-    display: flex;
-    gap: 0.5rem;
-    background-color: var(--light-bg);
-    padding: 0.5rem;
-    border-radius: 8px;
+    display: none;
+    position: static;
+    width: 100%;
+    background-color: var(--white);
+    padding: 1rem 0 1rem 0;
+    border-radius: 0 0 8px 8px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    margin-left: auto;
+    justify-content: center;
+    z-index: 1002;
 }
 
 .language-btn {
@@ -440,9 +442,7 @@ footer {
     }
     .language-selector {
         display: none;
-        position: absolute;
-        top: calc(100% + 60px);
-        left: 0;
+        position: static;
         width: 100%;
         background-color: var(--white);
         padding: 1rem 0 1rem 0;
@@ -451,7 +451,7 @@ footer {
         justify-content: center;
         z-index: 1002;
     }
-    .nav-links.active + .language-selector {
+    .nav-links.active .language-selector {
         display: flex;
     }
     .mobile-menu {
