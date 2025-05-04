@@ -461,6 +461,19 @@ footer {
     .hero {
         padding: 6rem 5% 3rem;
         flex-direction: column;
+        padding-top: 90px;
+    }
+    .features {
+        padding-top: 90px;
+    }
+    .about {
+        padding-top: 90px;
+    }
+    .how-it-works {
+        padding-top: 90px;
+    }
+    .contact {
+        padding-top: 90px;
     }
     .hero-content {
         padding-right: 0;
